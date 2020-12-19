@@ -1,8 +1,14 @@
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
+import ProductList from '../ui/ProductList'
 
 const ProductsPage = () => {
-  return <h1>Products</h1>
+  return (
+    <div>
+      <h1>Products</h1>
+      <ProductList />
+    </div>
+  )
 }
 
 const mapStateToProps = ({ products }) => {
