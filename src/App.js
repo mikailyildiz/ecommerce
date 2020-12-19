@@ -1,23 +1,26 @@
 // import logo from './logo.svg'
 import './App.css'
-import { Route, Switch, NavLink } from 'react-router-dom'
+import 'semantic-ui-css/semantic.min.css'
+
+import { Route, Switch } from 'react-router-dom'
+import { Container } from 'semantic-ui-react'
+
+import HomePage from './components/pages/HomePage'
 import ProductsPage from './components/pages/ProductsPage'
+import HeaderMenu from './components/ui/HeaderMenu'
+import FooterMenu from './components/ui/FooterMenu'
 
 function App() {
   return (
     <div className="App">
-      <div className="link-container">
-        <NavLink activeClassName="active" exact to="/">
-          Home
-        </NavLink>
-        <NavLink activeClassName="active" to="/products">
-          Products
-        </NavLink>
-      </div>
-      <Switch>
-        <Route path="/" exact render={() => <h1>Welcome Home</h1>} />
-        <Route path="/products" exact component={ProductsPage} />
-      </Switch>
+      <HeaderMenu />
+      <Container text style={{ marginTop: '7em' }}>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/products" component={ProductsPage} />
+        </Switch>
+      </Container>
+      <FooterMenu />
     </div>
   )
 }
