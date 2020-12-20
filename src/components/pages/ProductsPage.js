@@ -1,12 +1,21 @@
-import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
+import { connect } from 'react-redux'
+import { fetchProducts } from '../../actions/products'
 import ProductList from '../ui/ProductList'
+import { useEffect } from 'react'
+import { Grid } from 'semantic-ui-react'
 
-const ProductsPage = () => {
+const ProductsPage = (props) => {
+  useEffect(() => {
+    props.fetchProducts()
+  }, [])
+
   return (
     <div>
       <h1>Products</h1>
-      <ProductList />
+      <Grid stackable columns={4}>
+        <ProductList products={props.products} />
+      </Grid>
     </div>
   )
 }
@@ -15,12 +24,16 @@ const mapStateToProps = ({ products }) => {
   return { products }
 }
 
+const mapDispatchToProps = {
+  fetchProducts,
+}
+
 ProductsPage.propTypes = {
-  products: PropTypes.array,
+  products: PropTypes.object,
 }
 
 ProductsPage.defaultProps = {
-  products: [],
+  products: {},
 }
 
-export default connect(mapStateToProps)(ProductsPage)
+export default connect(mapStateToProps, mapDispatchToProps)(ProductsPage)

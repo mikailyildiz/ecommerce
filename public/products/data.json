@@ -1,0 +1,121 @@
+[
+  {
+    "id":12064273040195392,
+    "title":"ALEXANDER MCQUEEN AM0246SA002 AM0246SA-002",
+    "price":100.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":11033926921508488,
+    "title":"BALENCIAGA BB0004SA 005",
+    "price":144,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":39876704341265610,
+    "title":"GUCCI GG0687S 001",
+    "price":133.25,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":10412368723880252,
+    "title":"Short Sleeve T-Shirt",
+    "price":375,
+    "currencyId":"TL",
+    "isNew":true
+  },
+  {
+    "id":8552515751438644,
+    "title":"MONTBLANC MB0001S 001",
+    "price":410.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":18644119330491310,
+    "title":"SAINT LAURENT SL 296/F 005",
+    "price":910.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":10686354557628304,
+    "title":"ALEXANDER MCQUEENAM0246SA 004",
+    "price":949,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":11854078013954528,
+    "title":"PUMA PU0270S 001",
+    "price":614.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":876661122392077,
+    "title":"BOTTEGA VENETA BV1033S 002",
+    "price":514.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":51498472915966370,
+    "title":"ALEXANDER MCQUEEN AM0246SA001 AM0246SA-001",
+    "price":299.45,
+    "currencyId":"TL",
+    "isNew":true
+  },
+  {
+    "id":9197907543445676,
+    "title":"BALENCIAGA BB0004SA 003",
+    "price":256.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":10547961582846888,
+    "title":"SAINT LAURENT SL 296/F 005",
+    "price":100.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":6090484789343891,
+    "title":"MONTBLANC MB0031S 002",
+    "price":409.9,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":18532669286405344,
+    "title":"MONTBLANC MB0001S 012",
+    "price":262.5,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":5619496040738316,
+    "title":"BALENCIAGA BB0088SK 006",
+    "price":188.7,
+    "currencyId":"TL",
+    "isNew":false
+  },
+  {
+    "id":11600983276356164,
+    "title":"STELLA MCCARTNEY SC0197S 004",
+    "price":134.9,
+    "currencyId":"TL",
+    "isNew":true
+  },
+  {
+    "id":27250082398145996,
+    "title":"PUMA PE0093S 004",
+    "price":349,
+    "currencyId":"TL",
+    "isNew":false
+  }
+]
