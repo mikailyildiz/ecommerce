@@ -55,9 +55,9 @@ const HeaderMenu = (props) => {
 
           <Menu.Item as={Link} to="/cart">
             <Icon name="cart" /> Cart
-            <Label style={{ marginLeft: '.5em' }} circular color="blue">
+            {/* <Label style={{ marginLeft: '.5em' }} circular color="blue">
               22
-            </Label>
+            </Label> */}
           </Menu.Item>
         </Menu.Menu>
       </Container>
