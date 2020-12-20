@@ -12,7 +12,7 @@ const HeaderMenu = (props) => {
           Products
         </Menu.Item>
         <Menu.Menu position="right">
-          {props.profile.status && !props.profile.id && (
+          {!props.profile.id && (
             <Menu.Item as={Link} to="/login">
               <Icon name="user" /> Login
             </Menu.Item>
