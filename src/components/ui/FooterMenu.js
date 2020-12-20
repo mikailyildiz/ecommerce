@@ -1,4 +1,4 @@
-import { Container, Divider, Image, List, Segment } from 'semantic-ui-react'
+import { Container, Image, List, Segment } from 'semantic-ui-react'
 
 const FooterMenu = () => {
   return (

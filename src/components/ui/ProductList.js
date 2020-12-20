@@ -3,7 +3,7 @@ import ProductListItemPH from './ProductListItemPH'
 import { PropTypes } from 'prop-types'
 import { Grid } from 'semantic-ui-react'
 
-const placeholderItems = Array.from(Array(6), (x, i) => i + 1)
+const placeholderItems = Array.from(Array(8), (x, i) => i + 1)
 
 const ProductList = (props) => {
   const { products } = props

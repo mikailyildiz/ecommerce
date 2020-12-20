@@ -13,9 +13,7 @@ export function fetchProducts() {
   return (dispatch) => {
     dispatch({
       type: 'FETCH_PRODUCTS',
-      payload: fetch('/products/data.json', config)
-        .then((res) => res.json())
-        .then((res) => res),
+      payload: fetch('/products/data.json', config).then((res) => res.json()),
     })
   }
 }

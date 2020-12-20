@@ -2,7 +2,7 @@ import { Container } from 'semantic-ui-react'
 
 const HomePage = () => {
   return (
-    <Container>
+    <Container style={{ marginTop: '7em' }}>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         sollicitudin dictum aliquam. Nunc efficitur sem facilisis, mollis erat

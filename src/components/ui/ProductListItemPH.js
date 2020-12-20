@@ -1,4 +1,4 @@
-import { Card, Button, Icon, Placeholder } from 'semantic-ui-react'
+import { Card, Placeholder } from 'semantic-ui-react'
 
 const ProductListItemPH = () => {
   return (

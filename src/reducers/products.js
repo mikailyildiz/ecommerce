@@ -6,7 +6,7 @@ import {
 
 const initialState = {
   fetching: false,
-  productList: {},
+  productList: [],
   error: {},
 }
 

@@ -11,7 +11,7 @@ const ProductsPage = (props) => {
   }, [])
 
   return (
-    <div>
+    <div style={{ marginTop: '7em' }}>
       <h1>Products</h1>
       <Grid stackable columns={4}>
         <ProductList products={props.products} />
