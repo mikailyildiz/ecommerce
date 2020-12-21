@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# React + Redux e-commerce - My Glasses Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DEMO
+http://react-ecommerce-my-glasses-shop.surge.sh/
+
+<img width="1223" alt="Ekran Resmi 2020-12-20 19 12 27" src="https://user-images.githubusercontent.com/31213931/102727679-213ff000-4338-11eb-898e-ea09cc638084.png">
 
 ## Available Scripts
 
@@ -28,6 +31,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn deploy`
+surge.sh deploy
+
 
 ### `yarn eject`
 
