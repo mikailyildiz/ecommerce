@@ -1,4 +1,4 @@
-# React + Redux e-commerce - My Glasses Shop
+# React + Redux e-commerce - My Glasses Shop Web App
 
 DEMO
 http://react-ecommerce-my-glasses-shop.surge.sh/
